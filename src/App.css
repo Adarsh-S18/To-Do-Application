@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-color: #0b0909dd;
+}
+
+.app {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.app .mainHeading h1 {
+  text-align: center;
+}
+
+.app h1 {
+  color: rgb(221, 240, 11);
+}
+
+.app .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .input {
+  margin-top: 0.8em;
+  width: 30em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app h3 {
+  text-align: center;
+  color: white;
+}
+
+.app .input input {
+  width: 100%;
+  height: 1.6em;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.app i {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: grey;
+  margin-right: 5px;
+}
+
+.app .todos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app .todos .todo {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(212, 64, 64);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tasks {
+  margin-top: 20%;
+  /* margin-left: 20%; */
+
+}
+
+.tasks h3 {
+  color: white;
+}
+
+
+.tasks .todos {
+ 
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.tasks .todos .todo {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.tasks .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tasks .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(212, 64, 64);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tasks .todos h2 {
+  padding-left: 90px;
+  color: rgb(132, 189, 255);
+}
+
+/* .complete
+{
+  margin-left:50% ;
+} */
+.mainmain {
+  margin-left: 180px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.tasks .complete {
+  
+
+  margin-left: 100px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+.complete h2 {
+  padding-left: 90px;
+  color: rgb(132, 189, 255);
+  margin-bottom: 6px;
+}
+
+.complete p{
+  margin: 10px;
+  padding: 5px;
+  font-size:18px ;
+  color: rgb(0, 0, 0);
+}
+
+.complete i
+{
+  font-size: larger;
+}
+
+.backfinal
+{
+  background-color: rgb(255, 255, 255);
+  width: 20em;
+  height: 2.5em;
+  border-radius: 5px;
+}
